@@ -1,0 +1,92 @@
+-----------------------------------
+ Catch the Chicken Version History
+-----------------------------------
+
+Version 2.0
+Enhancements
+- Teamplay added!
+- Map cycling added. This cycles through all map files listed in the
+  maplist.ini file.
+- The droppable option now allows you to throw the chicken grenade style. This
+  is always on in a team game.
+- Glow changed into an optional color.
+- Time delay before you can pickup the chicken after throwing.
+- Pickup health options changed. You can now allow players to pickup small +2
+  health items.
+- Plus more... (lots have been added for teamplay)
+
+Bugs Fixed
+- If you suicided yourself while crouching a crouching body remained.
+
+Version 1.4
+Bugs
+- When firing while in "cam chicken" caused game to crash.
+- Chicken will now respawn if it falls out of the world. This could happen
+  sometimes if you dropped it into moving things.
+- The chicken respawns after it explodes. No, we can't stop it from exploding
+  it's just a part of Quake2 that we have no control over.
+- Cameras no longer retain the data of the player they follow, everything is
+  reset.
+- Standard Logging wasn't being generated correctly.
+- Not really a bug, when no clients are connected the chicken doesn't respawn
+  to stop filling up log files.
+
+Version 1.3
+Enhancements
+- Removed pulsing light effect on chicken when dropped.
+- Made chicken bounds smaller so it doesn't look like its floating over edges.
+- Removed useless options from the ctc menu.
+- Full video now included with download so your old copy doesn't get
+  overwritten.
+- General code cleanup. Long overdue. :)
+
+Bugs Fixed
+- Removed ability to throw multiple chickens when ctc menu was up.
+- Players can no longer kill other players while under water.
+- Hopefully fixed poor ping times on internet games.
+- Fixed bug where score was not reset properly when coming out of camera view.
+- Fixed up death messages where killer and killed were reversed (doh!)
+- Fixed up bug where chicken didnt make peck sound after turning
+- Fixed Bug where old timers where not cleanup up if chicken was dropped and
+  picked back up quicker than 1 second.
+
+Version 1.2
+Enhancements
+- Added "options" command so that players can see what the server settings are
+  during game.
+- Added check to identify whether player gun models exist and if they dont
+  set to default. To fix problems with people using exotic models in server
+  games.
+
+Version 1.1
+Enhancements
+- Added auto respawn feature that causes chicken to automaticlly respawn after
+  a set number of seconds if chicken has not been picked up. Options set in
+  ctc.ini (autorespawn & autorespawntime)
+- Added random spawn option to ini file (randomspawn). Allows spawning of 
+  chicken to be either a random or fartherest deathmatch respawn point.
+- Enhancement to frequency that chicken randomly plays sounds, so that 
+  locating the chicken is easier.
+- Added CamClient, this is a very cool observer mod that follows players
+  around. Much better than the normal CTF follow camera.
+
+Bugs Fixed
+- Fixed swimming bug which caused chicken to appear surfaced but was actually
+  at bottom of water.
+- Fixed bug where if chicken was dropped on a deathmatch spawn point the 
+  chicken became submersed in it. Chicken will now stand on it.
+- Fixed bug where when client disconnected the chicken was not dropped. 
+  Caused by the not droppable option being set.
+- Fixed bug where feathers made splash noises when dropped under water.
+  Feathers dropped will no longer make sounds under water.
+- Fixed dead player still glowing after death. Caused by issuing kill
+  command. Note that this is a quake 2 bug. Any effect that a live player
+  has on death still existed when player dies and never goes away.
+- Fixed bug causing corpses not to gib.
+- Fixed maps without any deathmatch starts caused an invalid page fault.
+  Scary :<
+- Nasty work around, the game resets back to "baseq2" if you let the demos
+  play. We added some crap demos and an empty cinematic.
+
+Version 1.0
+- First Release

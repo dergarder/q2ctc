@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: game - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPD360.TMP" with contents
+[
+/nologo /G5 /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "STD_LOGGING" /Fp".\Release/game.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\Microsoft Visual Studio\MyProjects\CTC\ctc.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD360.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD361.TMP" with contents
+[
+navlib\navlib.lib kernel32.lib user32.lib winmm.lib /nologo /base:"0x20000000" /subsystem:windows /dll /incremental:no /pdb:"..\Release/gamex86.pdb" /debug /machine:I386 /def:".\game.def" /out:".\release\gamex86.dll" /implib:"..\Release/gamex86.lib" 
+".\Release\ai_bitch.obj"
+".\Release\ai_bum_sit.obj"
+".\Release\ai_dog.obj"
+".\Release\ai_punk.obj"
+".\Release\ai_runt.obj"
+".\Release\ai_shorty.obj"
+".\Release\ai_thug.obj"
+".\Release\ai_thug_sit.obj"
+".\Release\ai_whore.obj"
+".\Release\ctc.obj"
+".\Release\ep_all.obj"
+".\Release\ep_crystalpalace.obj"
+".\Release\ep_log.obj"
+".\Release\ep_posionville.obj"
+".\Release\ep_radiocity.obj"
+".\Release\ep_shipyards.obj"
+".\Release\ep_skidrow.obj"
+".\Release\ep_steeltown.obj"
+".\Release\ep_trainyard.obj"
+".\Release\g_ai.obj"
+".\Release\g_ai_ents.obj"
+".\Release\g_ai_fight.obj"
+".\Release\g_ai_memory.obj"
+".\Release\g_cast.obj"
+".\Release\G_chase.obj"
+".\Release\g_cmds.obj"
+".\Release\g_combat.obj"
+".\Release\g_func.obj"
+".\Release\g_items.obj"
+".\Release\g_joe_misc.obj"
+".\Release\g_main.obj"
+".\Release\g_misc.obj"
+".\Release\g_pawn.obj"
+".\Release\g_phys.obj"
+".\Release\g_save.obj"
+".\Release\g_spawn.obj"
+".\Release\g_svcmds.obj"
+".\Release\g_target.obj"
+".\Release\g_teamplay.obj"
+".\Release\g_trigger.obj"
+".\Release\g_utils.obj"
+".\Release\g_weapon.obj"
+".\Release\gslog.obj"
+".\Release\m_bbox.obj"
+".\Release\m_move.obj"
+".\Release\p_client.obj"
+".\Release\p_hud.obj"
+".\Release\p_view.obj"
+".\Release\p_weapon.obj"
+".\Release\q_shared.obj"
+".\Release\stdlog.obj"
+".\Release\vehicles.obj"
+".\Release\voice.obj"
+".\Release\voice_bitch.obj"
+".\Release\voice_punk.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD361.TMP"
+<h3>Output Window</h3>
+Compiling...
+ctc.c
+Linking...
+   Creating library ..\Release/gamex86.lib and object ..\Release/gamex86.exp
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+gamex86.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
