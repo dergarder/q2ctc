@@ -32,5 +32,5 @@ Gameplay options:
 
 ## Other
 
-- Originally was hosted at [PlanetQuake](http://www.planetquake.com/chicken) but now available only [here](https://www.quakewiki.net/archives/chicken/) and [here](https://www.moddb.com/mods/catch-the-chicken/downloads/catch-the-chicken-v20)
+- Originally was hosted at [PlanetQuake](https://web.archive.org/web/20000817003915/http://www.planetquake.com/chicken/) but now available only [here](https://www.quakewiki.net/archives/chicken/) and [here](https://www.moddb.com/mods/catch-the-chicken/downloads/catch-the-chicken-v20)
 - [Q3 Catch the Chicken](https://openarena.fandom.com/wiki/ModCompat/Q3_Catch_the_Chicken)
